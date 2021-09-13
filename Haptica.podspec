@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.name             = 'Haptica'
   s.version          = '3.0.2'
   s.summary          = 'Easy Haptic Feedback'
-  s.homepage         = 'https://github.com/efremidze/Haptica'
+  s.homepage         = 'https://github.com/chrisperfer/Haptica'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'efremidze' => 'efremidzel@hotmail.com' }
-  s.documentation_url = 'https://efremidze.github.io/Haptica/'
+  s.documentation_url = 'https://chrisperfer.github.io/Haptica/'
   s.source           = { :git => 'https://github.com/chrisperfer/Haptica.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'

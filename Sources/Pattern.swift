@@ -41,6 +41,10 @@ public enum Note {
             self = .haptic(.impact(.medium))
         case ".":
             self = .haptic(.impact(.light))
+        case "|":
+            self = .haptic(.impact(.rigid))
+        case "^":
+            self = .haptic(.impact(.soft))
         case "-":
             self = .wait(delay)
         default:
